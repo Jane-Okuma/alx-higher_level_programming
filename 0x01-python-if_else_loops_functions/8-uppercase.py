@@ -9,5 +9,5 @@ def uppercase(str):
             code = int(ord(i))
             count = count + 1
         print("{}".format(chr(code)), end="")
-        if count == len(str):
+        if count == len(str) or len(str) == 0:
             print("{}".format("\n"), end="")
