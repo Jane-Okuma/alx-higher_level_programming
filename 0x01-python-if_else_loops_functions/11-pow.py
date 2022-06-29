@@ -11,6 +11,7 @@ def pow(a, b):
         return mul
     elif b < 1:
         mul = a
+        b = b * -1
         for i in range(1, b):
             mul = mul * a
         return 1 / mul
