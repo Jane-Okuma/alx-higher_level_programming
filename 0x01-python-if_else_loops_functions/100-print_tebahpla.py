@@ -4,4 +4,4 @@ for i in range(122, 98):
         code = int(i)
     else:
         code = int(i) + 32
-        print("{:s}".format(chr(i)), end="")
+    print("{:s}".format(chr(code)), end="")
