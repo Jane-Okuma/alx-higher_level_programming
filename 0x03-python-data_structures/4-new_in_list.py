@@ -6,5 +6,8 @@ def new_in_list(my_list, idx, element):
     if idx > range_:
         return my_list
     else:
-        my_list[idx] = element
-        return my_list
+        if not my_list:
+            pass
+        else:
+            my_list[idx] = element
+            return my_list
