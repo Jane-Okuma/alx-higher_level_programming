@@ -5,4 +5,5 @@ def elemet_at(my_list, idx):
     range = len(my_list) - 1
     if idx > range:
         return None
-    return my_list[idx]
+    else:
+        return my_list[idx]
