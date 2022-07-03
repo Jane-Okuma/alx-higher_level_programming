@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def elemet_at(my_list, idx):
+def element_at(my_list, idx):
     if idx < 0:
         return None
     range = len(my_list) - 1
