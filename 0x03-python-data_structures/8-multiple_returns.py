@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
     length = len(sentence)
-    if sentence[0] == " ":
+    if length == 0:
         firstchar = None
     else:
         firstchar = sentence[0]
-    ls = []
-    ls.append(length)
-    ls.append(firstchar)
-    t1 = tuple(ls)
+    t1 = (length, firstchar)
     return t1
