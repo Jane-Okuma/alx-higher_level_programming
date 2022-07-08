@@ -6,4 +6,5 @@ def print_sorted_dictionary(a_dictionary):
         keys.append(i)
     for i in sorted(keys):
         new_dict[i] = a_dictionary[i]
-    return new_dict
+    for i, j in new_dict.items():
+        print("{}: {}".format(i, j))
