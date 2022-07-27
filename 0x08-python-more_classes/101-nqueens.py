@@ -18,6 +18,7 @@ def isSafe(m_queen, nqueen):
         True: when queens can't kill each other
         False: when some of the queens can kill
         
+        
     """
 
     for i in range(nqueen):
@@ -55,6 +56,7 @@ def Queen(m_queen, nqueen):
         m_queen: array that has the queens positions
         nqueen: queen number
         
+        
     """
 
     if nqueen is len(m_queen):
@@ -78,6 +80,7 @@ def solveNQueen(size):
     
     Args:
         size: size of the chessboard
+        
         
     """
 
